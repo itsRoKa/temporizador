@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Baloo:wght@400;700&display=swap" rel="stylesheet">
+  
+  <title>Temporizador</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="temporizador">
+    <span id="tiempo">01:00</span>
+    <button id="iniciar">Iniciar</button>
+    <button id="reiniciar">Reiniciar</button>
+    <button id="pausar">Pausar</button>
+    <audio id="audioLast10Seconds" src="10segworter.mp3" preload="auto"></audio>
+    <audio id="audioEndTimer" src="juegoterminado.mp3" preload="auto"></audio>
+
+   <div class="progress-bar">
+        <div class="progress"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
